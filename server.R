@@ -44,8 +44,8 @@ shinyServer(
     function(input, output) {
 
         output$graph1 <- renderPlot({
-            destfile <- ".\\data\\consumptionAVT.csv"
-            consumo <- read.csv(destfile)
+            file <- "http://s3-sa-east-1.amazonaws.com/ebreti/avt/consumptionAVT.csv"
+            consumo <- read.csv(file)
             consumo$dataleitura <- as.Date(as.character(consumo$dataleitura), format("%d/%m/%Y"))
             consumo$leitura <- as.numeric(gsub(",", ".", as.character(consumo$leitura)))
             foco <- input$foco
