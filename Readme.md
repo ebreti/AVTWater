@@ -4,10 +4,7 @@ author: "fmarianoc"
 date: "Monday, November 10, 2014"
 output:
   html_document:
-    fig_caption: yes
-    number_sections: yes
     self_contained: no
-    toc: yes
 ---
 
 About a year ago I bought one house in a villa where the water consumption can be measured by residence, but the billing is sent to the villa as a single entity.  
@@ -39,5 +36,8 @@ This application does not estimates nothing. It is a show graphs application tha
 - coletivo :: factor {individual, common, villa}  
 
 The target of this project is not ambitious, and I think that it was reached.  
+
+Please, try it at https://fmarianoc.shinyapps.io/AVTWater/  
+ 
 
 *Thank you.*  
