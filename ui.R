@@ -2,7 +2,7 @@ library(shiny)
 shinyUI(pageWithSidebar(
     headerPanel("Water Consumption by Households in AVT"),
     sidebarPanel(
-        selectInput("foco", "Choose house#/avt/common:",
+        selectInput("foco", "Choose water meter:",
                     choices=c("avt", "house#01", "house#02", "house#03", "house#04", 
                               "house#05", "house#06", "house#07", "house#08", "house#09", 
                               "house#10", "house#11", "house#12", "house#13", "house#14", 
