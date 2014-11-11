@@ -1,4 +1,3 @@
-setwd("C:\\Users\\Flavio\\Dropbox\\Coursera\\JohnsHopkins\\DevDataProd\\Proj1")
 library(shiny)
 shinyUI(pageWithSidebar(
     headerPanel("Water Consumption by Households in AVT"),
