@@ -1,4 +1,6 @@
 library(shiny)
+library(markdown)
+
 shinyUI(pageWithSidebar(
     headerPanel("Water Consumption by Households in AVT"),
     sidebarPanel(
@@ -9,7 +11,10 @@ shinyUI(pageWithSidebar(
                               "house#15", "house#16", "house#17", "house#18", "house#19", 
                               "house#20", "house#21", "common"),
                     selected="avt"),
-        submitButton("Show Graph")
+        submitButton("Show Graph"),
+        br(),
+        br(),
+        includeMarkdown("lightDoc.md")
     ),
     mainPanel(
         plotOutput("graph1")
