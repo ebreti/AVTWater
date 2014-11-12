@@ -34,7 +34,12 @@ Shiny App
 - Data stored in Amazon's AWS S3.  
 
 
-Ranking
+Data
 ========================================================
 
-![plot of chunk unnamed-chunk-1](deck-figure/unnamed-chunk-1.png) 
+
+
+- 449 measures of 5 variables.
+- variable names: idmedidor, unidade, dataleitura, leitura, coletivo.
+- measures of external water meter: 31.
+- measures of each internal water meter: 19.

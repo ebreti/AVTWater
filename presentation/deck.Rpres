@@ -34,9 +34,16 @@ Shiny App
 - Data stored in Amazon's AWS S3.  
 
 
-Ranking
+Data
 ========================================================
 
 ```{r, echo=FALSE}
-plot(cars)
+file <- "http://s3-sa-east-1.amazonaws.com/ebreti/avt/consumptionAVT.csv"
+consumo <- read.csv(file)
+consumo$dataleitura <- as.Date(as.character(consumo$dataleitura), format("%d/%m/%Y"))
 ```
+
+- `r dim(consumo)[1]` measures of `r dim(consumo)[2]` variables.
+- variable names: `r colnames(consumo)`.
+- measures of external water meter: `r table(consumo$unidade)[1]`.
+- measures of each internal water meter: `r table(consumo$unidade)[2]`.
