@@ -43,3 +43,5 @@ Data
 - variable names: idmedidor, unidade, dataleitura, leitura, coletivo.
 - measures of external water meter: 31.
 - measures of each internal water meter: 19.
+- 19 * 22 + 31 = 449 OK!  
+

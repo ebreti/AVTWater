@@ -47,3 +47,5 @@ consumo$dataleitura <- as.Date(as.character(consumo$dataleitura), format("%d/%m/
 - variable names: `r colnames(consumo)`.
 - measures of external water meter: `r table(consumo$unidade)[1]`.
 - measures of each internal water meter: `r table(consumo$unidade)[2]`.
+- 19 * 22 + 31 = 449 OK!  
+
