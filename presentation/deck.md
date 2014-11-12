@@ -8,20 +8,21 @@ Situation
 
 - One vila with 21 houses and one common area. 
 - 22 water meters for internal control.  
-- One external water meter which the concessionaire use for billing.  
+- One external water meter used by the concessionaire for billing.  
 - One limit of 10500 liters per day to pay the minimal fee.  
-- The limit reached at the Wolrd Cup.  
-- Unbalanced consuption among the households.  
+- The limit was extrapolated during the World Cup.  
+- Unbalanced consumption among the households.  
+- Need to charge wasters.  
 
 
-First Atempt
+First Attempt
 ========================================================
 
-- Data collected in Google Drive spreadsheet and downloaded to DropBox folder.
+- Data collected in one Google Drive spreadsheet and downloaded to DropBox folder.
 - Knitr app to generate graph of consumption by water meter and ranking of households.  
-- 15 daily records to map consumption by household.  
-- Emails sent to households to show consumption map.  
-- Weekly records to control vila's comsumption.  
+- 15 consecutive daily records to map consumption by household.  
+- Emails sent to households to show the consumption map.  
+- Weekly records to control the vila's consumption.  
 
 
 Shiny App
